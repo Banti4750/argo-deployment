@@ -7,19 +7,19 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: nginx
+      image: banti47/todo-app-week-39:2bf1548dcf4343b7d374b51c9d655e5014669b2d
       ports:
         - containerPort: 80
 ---
-apiVersion: v1
-kind: Pod
-metadata:
-  name: httpd
-  labels:
-    app: nginx
-spec:
-  containers:
-    - name: httpd
-      image: httpd
-      ports:
-        - containerPort: 80
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: httpd
+#   labels:
+#     app: nginx
+# spec:
+#   containers:
+#     - name: httpd
+#       image: httpd
+#       ports:
+#         - containerPort: 80
