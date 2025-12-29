@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: banti47/todo-app-week-39:2bf1548dcf4343b7d374b51c9d655e5014669b2d
+      image: banti47/todo-app-week-39:76d02a5d4aac69e6815e5c1066f02afc5104e777
       ports:
         - containerPort: 80
 ---
